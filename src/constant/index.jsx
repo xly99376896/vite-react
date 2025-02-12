@@ -1,0 +1,11 @@
+const MENU_WIDTH = 205
+const HEADER_HEIGHT = 58
+const TABS_HEIGHT = 40
+const CONTENT_PADDING = 15
+
+export {
+    MENU_WIDTH,
+    HEADER_HEIGHT,
+    TABS_HEIGHT,
+    CONTENT_PADDING
+}
