@@ -140,6 +140,14 @@ Mock.mock(domain + 'getUser', () => {
                             title: '新环境配置'
                         }
                     },
+                    {
+                        key: 'team-library',
+                        path: '/team-library',
+                        label: 'Team Library',
+                        query: {
+                            title: 'Team Library'
+                        }
+                    },
                 ]
             }
         ]

@@ -14,6 +14,7 @@ import Markdown from '@/pages/Markdown'
 import Animate from '@/pages/Animate'
 import Gsap from '@/pages/Gsap'
 import NewEnvironment from '@/pages/NewEnvironment'
+import TeamLibrary from '@/pages/TeamLibrary'
 import ErrorPage from '@/pages/ErrorPage'
 
 const App = lazy(() => import('@/layout/App'))
@@ -82,6 +83,10 @@ export const routes = [
             {
                 path: '/new-environment',
                 element: <NewEnvironment />
+            },
+            {
+                path: '/team-library',
+                element: <TeamLibrary />
             },
             {
                 path: '/error',
